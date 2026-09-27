@@ -132,6 +132,7 @@ export default function CyberTerminal() {
             "  2. Compass Transport    [Logistics ERP]       - Fleet dispatch & consignment index (<15ms)",
             "  3. Gems Testing India   [Security / Web]      - Anti-tamper gemstone verification vault",
             "  4. Pragya AgriTech      [Marketplace / AI]    - Live APMC mandi price discovery & advisory",
+            "  5. Dr. YSP University   [Institutional ERP]   - Multi-campus governance & dynamic faculty matrix",
             "",
             "Tip: Scroll to #projects on the page for interactive dual-perspective inspection.",
           ],

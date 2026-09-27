@@ -380,6 +380,58 @@ export const PROJECTS_DATA: Project[] = [
         "State-driven advisory engine with real-time weather ingestion and normalized multilingual relational knowledge base.",
     },
   },
+  {
+    id: "ysp-university",
+    slug: "ysp-university",
+    title: "Dr. YSP University Portal & ERP",
+    subtitle: "Multi-Campus Academic Governance & Faculty Onboarding ERP",
+    category: "Institutional ERP & Governance",
+    tagline: "Centralized multi-campus governance platform with automated circular expiration and OTP faculty onboarding.",
+    role: "Full-Stack System Architect & Lead Engineer",
+    year: "2022 - 2023",
+    featured: true,
+    liveUrl: "https://uhf.ac.in",
+    githubUrl: "https://github.com/yashin-chauhan/ysp-university-showcase",
+    coverGradient: "from-emerald-600/20 via-teal-500/10 to-transparent",
+    accentColor: "#059669",
+    clientView: {
+      stats: [
+        { value: "4+ Colleges", label: "Multi-Campus Hierarchy" },
+        { value: "100%", label: "Automated Expiration" },
+        { value: "<15ms", label: "Dynamic Matrix Query" },
+        { value: "50k+", label: "Monthly Academic Users" },
+      ],
+      description:
+        "A unified institutional portal and faculty onboarding ERP engineered for Dr. Yashwant Singh Parmar University of Horticulture & Forestry (UHF Nauni). Centralizes departmental directories, automated notice/tender archiving, and semester curriculum matrices.",
+      features: [
+        "Faculty self-service onboarding with async institutional domain filtering and real-time email OTP verification.",
+        "Dynamic Faculty-to-Department page-binding engine using global lookup helpers across college websites.",
+        "Automated circular, tender, and recruitment vacancy archiving based on submission deadlines.",
+        "Dynamic course catalog matrix manager enabling real-time credit-hour updates without code deployments.",
+        "Multi-campus navigation engine partitioning constituent colleges, RHR&TS stations, and KVK centers.",
+      ],
+    },
+    engView: {
+      highlights: [
+        "Constructed dual-tier fail-closed authentication guards (AdminAuth for super-admin console and EmpAuth for faculty self-service).",
+        "Engineered automated time-decay query filters archiving expired tenders and recruitment notices without background cron overhead.",
+        "Structured normalized multi-campus relational schema in MySQL 8 supporting dynamic department bindings and course syllabi.",
+        "Implemented secure AJAX email OTP dispatch pipeline with anti-brute-force rate limiting and institutional domain whitelist.",
+      ],
+      techStack: [
+        "Laravel 8",
+        "PHP 8.x",
+        "MySQL 8",
+        "Bootstrap 4",
+        "DataTables",
+        "jQuery / AJAX",
+        "Nginx / Apache",
+      ],
+      latency: "<15ms DB Query Latency",
+      architectureSummary:
+        "Multi-tier MVC architecture with dual session authentication guards, automated temporal date-filtering, and dynamic relational page bindings.",
+    },
+  },
 ];
 
 export const ARCHITECTURE_NODES: ArchNode[] = [
@@ -536,7 +588,7 @@ export const CAREER_DATA: CareerItem[] = [
     location: "Delhi, India",
     current: false,
     points: [
-      "Built and deployed custom SaaS platforms, logistics portals, and client web applications from conception to production.",
+      "Built and deployed custom SaaS platforms, logistics portals (Compass Transport ERP), institutional governance hubs (Dr. YSP University), and client web applications from conception to production.",
       "Engineered Compass Transport ERP with high-speed Lorry Receipt generation and multi-branch inventory tracking.",
       "Optimized relational database queries, indexing strategies, and server-side rendering for optimal Core Web Vitals.",
     ],
@@ -840,6 +892,7 @@ export const TERMINAL_COMMANDS: TerminalCommand[] = [
       "2. Compass Transport ERP    - Multi-Branch Logistics Hub & <300ms PDF Generator (Laravel 8 + MySQL 8)",
       "3. Gems Testing India (GTI) - Gemological Verification & <8ms SQL UNION Engine (Laravel 10)",
       "4. Pragya Crop Advisory     - 12-Stage Agronomy State Machine & UTF-8 API (Laravel + Redis)",
+      "5. Dr. YSP University ERP   - Multi-Campus Portal & Dynamic Faculty Matrix (Laravel 8 + MySQL 8)",
     ],
   },
   {

@@ -227,6 +227,63 @@ export const FEATURED_PROJECTS: ProjectData[] = [
       dockerized: true,
     },
   },
+  {
+    id: "ysp-university",
+    title: "Dr. YSP University Portal & ERP",
+    subtitle: "Multi-Campus Institutional Governance & Academic Faculty ERP",
+    category: "Institutional ERP & Governance",
+    status: "Live Institutional Production",
+    featured: true,
+    accentColor: "#059669",
+    glowColor: "rgba(5, 150, 105, 0.15)",
+    metrics: [
+      { label: "Campus Network", value: "4+ Colleges", change: "10+ Research Stations & KVKs" },
+      { label: "Tender Expiration", value: "100%", change: "Automated real-time archiving" },
+      { label: "Query Latency", value: "<15ms", change: "Indexed MySQL & DataTables" },
+      { label: "Onboarding Spam", value: "0%", change: "Domain filter & Email OTP handshake" },
+    ],
+    clientView: {
+      headline: "Unifying Multi-Campus Academic Governance and Faculty Onboarding into a Single Hub",
+      businessProblem:
+        "Sprawling multi-campus state universities struggle with outdated paper faculty registries, lingering expired procurement tenders, unverified staff profile modifications, and fragmented departmental course syllabi.",
+      solutionROI: [
+        "Consolidated 4 constituent colleges and 10+ regional research stations under a dynamic, database-driven portal.",
+        "Implemented automated notice and tender expiration, completely eliminating outdated circular clutter.",
+        "Delivered a secure faculty self-service portal with verified institutional email OTP validation.",
+        "Empowered academic deans to update semester course credit matrices dynamically without developer intervention.",
+      ],
+      deliverables: [
+        "Centralized institutional web portal and governance backoffice",
+        "Faculty self-service onboarding engine with email OTP verification",
+        "Automated notice, tender, and recruitment vacancy archiving engine",
+        "Dynamic curriculum course matrix and faculty directory manager",
+      ],
+      liveUrl: "https://uhf.ac.in",
+      demoUrl: "https://github.com/yashin-chauhan/ysp-university-showcase",
+    },
+    engineeringView: {
+      architectureHighlight:
+        "Dual-guard session authentication architecture with automated temporal date-decay query filters, institutional domain whitelisting, and dynamic page-to-faculty binding helpers.",
+      techStack: [
+        "Laravel 8",
+        "PHP 8.x",
+        "MySQL 8",
+        "DataTables",
+        "Bootstrap 4 / CSS3",
+        "AJAX / jQuery",
+        "Nginx",
+      ],
+      latencyP99: "15ms",
+      keyDecisions: [
+        "Implemented dual fail-closed session middleware guards (`AdminAuth` and `EmpAuth`) for strict separation of governance privileges.",
+        "Built automatic temporal query filters (`where('last_date', '>', $yesterday)`) for tenders and circulars, removing the need for fragile cron schedules.",
+        "Engineered global `getFaculty($page)` helper binding faculty profiles to dynamic departmental URL endpoints seamlessly.",
+        "Implemented asynchronous AJAX OTP dispatch with institutional domain regex verification to eliminate unauthorized faculty registrations.",
+      ],
+      githubUrl: "https://github.com/yashin-chauhan/ysp-university-showcase",
+      dockerized: true,
+    },
+  },
 ];
 
 export const ARCH_LAYERS: ArchLayer[] = [
@@ -412,9 +469,9 @@ export const CAREER_HISTORY: CareerExperience[] = [
     type: "Full-Time",
     badgeColor: "border-violet-500/40 text-violet-400 bg-violet-500/10",
     highlights: [
-      "Delivered 12+ scalable web applications and bespoke client platforms from concept through cloud deployment.",
+      "Delivered 12+ scalable web applications and bespoke client platforms (including Dr. YSP University Institutional Portal & ERP) from concept through cloud deployment.",
       "Engineered responsive, accessible frontends using Next.js, React, and Tailwind CSS with sub-second First Contentful Paint.",
-      "Designed relational database schemas, migration scripts, and RESTful backends using Node.js and PostgreSQL.",
+      "Designed relational database schemas, migration scripts, and RESTful backends using Node.js, Laravel, and PostgreSQL.",
       "Implemented automated client email notification triggers, payment gateway integrations, and CMS backends.",
     ],
     skills: ["Next.js", "React", "Node.js", "PostgreSQL", "AWS S3", "Tailwind CSS", "REST APIs"],

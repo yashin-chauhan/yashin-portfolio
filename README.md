@@ -84,6 +84,7 @@ Apple macOS-inspired bottom navigation pill with active scroll spy and tooltips.
 | **Compass Transport ERP** | Multi-Branch Logistics Hub | • Multi-branch context isolation (Delhi & Ambala)<br>• `<300ms` vector DomPDF bilty generation<br>• Laravel 8, MySQL 8, DomPDF, Dynamic GST engine | [Live Platform](https://compasstransport.in) • [Showcase](https://github.com/yashin-chauhan/compass-transport-showcase) |
 | **Gems Testing India (GTI)** | Gemological Verification | • `<8ms` single-index SQL UNION report engine<br>• Millimeter-exact PVC card PDF generator<br>• Laravel 10, MySQL 8, Yajra DataTables | [Showcase](https://github.com/yashin-chauhan/gems-testing-india-showcase) |
 | **Pragya Crop Advisory** | AgriTech / NGO Platform | • 12-stage agronomy lifecycle modeling engine<br>• Bilingual UTF-8 Devanagari REST API contracts<br>• Relational integrated pest management (IPM) joins | [Showcase](https://github.com/yashin-chauhan/pragya-crop-advisory) |
+| **Dr. YSP University ERP** | Institutional Governance & ERP | • Dual-tier session auth guards (`AdminAuth` & `EmpAuth`)<br>• Asynchronous email OTP faculty onboarding & domain whitelist<br>• Temporal circular/tender expiration & dynamic course matrix | [Live Portal](https://uhf.ac.in) • [Showcase](https://github.com/yashin-chauhan/ysp-university-showcase) |
 
 ---
 

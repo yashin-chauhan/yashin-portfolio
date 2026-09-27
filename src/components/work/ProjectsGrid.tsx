@@ -48,7 +48,7 @@ export default function ProjectsGrid() {
         </div>
       </div>
 
-      {/* Grid of 4 Projects */}
+      {/* Grid of Production Projects */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
         {FEATURED_PROJECTS.map((project, idx) => (
           <motion.div
