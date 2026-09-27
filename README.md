@@ -81,8 +81,8 @@ Apple macOS-inspired bottom navigation pill with active scroll spy and tooltips.
 | Project | Domain | Architecture & Tech Highlights | Links |
 | :--- | :--- | :--- | :--- |
 | **RentKhata** | Double-Entry FinTech SaaS | • Integer paise double-entry accounting ledger<br>• Property ➔ Floor ➔ Room ➔ Bed ➔ Stay state machines<br>• Next.js 15, NestJS 11, Fastify 5, Supabase, BullMQ, Expo 52 | [Live SaaS](https://rentkhata.com) • [Showcase](https://github.com/yashin-chauhan/rentkhata) |
-| **Compass Transport ERP** | Multi-Branch Logistics Hub | • Multi-branch context isolation (Delhi & Ambala)<br>• `<300ms` vector DomPDF bilty generation<br>• Laravel 8, MySQL 8, DomPDF, Dynamic GST engine | [Live Platform](https://compasstransport.in) • [Showcase](https://github.com/yashin-chauhan/compass-transport-erp) |
-| **Gems Testing India (GTI)** | Gemological Verification | • `<8ms` single-index SQL UNION report engine<br>• Millimeter-exact PVC card PDF generator<br>• Laravel 10, MySQL 8, Yajra DataTables | [Showcase](https://github.com/yashin-chauhan/gti-verification-portal) |
+| **Compass Transport ERP** | Multi-Branch Logistics Hub | • Multi-branch context isolation (Delhi & Ambala)<br>• `<300ms` vector DomPDF bilty generation<br>• Laravel 8, MySQL 8, DomPDF, Dynamic GST engine | [Live Platform](https://compasstransport.in) • [Showcase](https://github.com/yashin-chauhan/compass-transport-showcase) |
+| **Gems Testing India (GTI)** | Gemological Verification | • `<8ms` single-index SQL UNION report engine<br>• Millimeter-exact PVC card PDF generator<br>• Laravel 10, MySQL 8, Yajra DataTables | [Showcase](https://github.com/yashin-chauhan/gems-testing-india-showcase) |
 | **Pragya Crop Advisory** | AgriTech / NGO Platform | • 12-stage agronomy lifecycle modeling engine<br>• Bilingual UTF-8 Devanagari REST API contracts<br>• Relational integrated pest management (IPM) joins | [Showcase](https://github.com/yashin-chauhan/pragya-crop-advisory) |
 
 ---

@@ -89,8 +89,8 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "Automated freight bilti & GST invoice generation pipeline",
         "Fuel expense and trip profitability analytics suite",
       ],
-      liveUrl: "https://compass-transport.vercel.app",
-      demoUrl: "https://github.com/yashin-chauhan/compass-transport-erp",
+      liveUrl: "https://compasstransport.in",
+      demoUrl: "https://github.com/yashin-chauhan/compass-transport-showcase",
     },
     engineeringView: {
       architectureHighlight:
@@ -111,7 +111,7 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "Integrated AWS S3 pre-signed URLs for zero-load direct upload of heavy Proof-of-Delivery documents from driver smartphones.",
         "Used Redis pub/sub for broadcast updates to the fleet dispatcher board when truck statuses change.",
       ],
-      githubUrl: "https://github.com/yashin-chauhan/compass-transport-erp",
+      githubUrl: "https://github.com/yashin-chauhan/compass-transport-showcase",
       dockerized: true,
     },
   },
@@ -146,8 +146,8 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "High-resolution micro-photography cataloging tool",
         "Dynamic high-dpi thermal and card printer layout engine",
       ],
-      liveUrl: "https://gemstestingindia.com",
-      demoUrl: "https://gemstestingindia.com/verify",
+      liveUrl: "https://github.com/yashin-chauhan/gems-testing-india-showcase",
+      demoUrl: "https://github.com/yashin-chauhan/gems-testing-india-showcase",
     },
     engineeringView: {
       architectureHighlight:
@@ -167,7 +167,7 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "Implemented high-concurrency PDF rendering pipeline with headless Chromium worker pools.",
         "Designed responsive, high-density print stylesheets for physical laboratory credit-card certificates.",
       ],
-      githubUrl: "https://github.com/yashin-chauhan/gems-testing-india",
+      githubUrl: "https://github.com/yashin-chauhan/gems-testing-india-showcase",
       dockerized: true,
     },
   },
@@ -202,8 +202,8 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "Crop calendar advisory with localized weather alerts",
         "Direct verified buyer connection directory",
       ],
-      liveUrl: "https://pragya-agritech.vercel.app",
-      demoUrl: "https://github.com/yashin-chauhan/pragya-agritech",
+      liveUrl: "https://github.com/yashin-chauhan/pragya-crop-advisory",
+      demoUrl: "https://github.com/yashin-chauhan/pragya-crop-advisory",
     },
     engineeringView: {
       architectureHighlight:
@@ -223,7 +223,7 @@ export const FEATURED_PROJECTS: ProjectData[] = [
         "Optimized image compression pipeline in client-side Web Workers prior to transmission to conserve rural bandwidth.",
         "Architected localized internationalization (i18n) layer supporting Hindi, Punjabi, and English seamlessly.",
       ],
-      githubUrl: "https://github.com/yashin-chauhan/pragya-agritech",
+      githubUrl: "https://github.com/yashin-chauhan/pragya-crop-advisory",
       dockerized: true,
     },
   },
